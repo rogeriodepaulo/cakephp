@@ -65,9 +65,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'database_name',
+		'login' => 'rxweb_usercake',
+		'password' => '?#;lSh$WKE8r',
+		'database' => 'rxweb_DBcake',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
