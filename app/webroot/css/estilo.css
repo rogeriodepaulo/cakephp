@@ -1,20 +1,15 @@
 * { margin: 0; padding: 0;}
-body { background: #d1d1d1;}
+body { background: #d1d1d1; font-family: Arial, Helvetica, sans-serif;}
 
 
 /*==========================================
                 CONFIG HEADER
 ==========================================*/
-#header-full { width: 100%; height:auto; background: #ccc;}
-#header-full #header-limited { width: 960px; height: 150px; margin: 0 auto; background: #069;}
+#header-full { width: 100%; height:auto; background:url(../img/bg-header.jpg) repeat-x #ccc; border-bottom: 3px solid #666;}
+#header-full #header-limited { width: 960px; height: 150px; margin: 0 auto; }
+#header-full #header-limited #logomarca { width: 272px; height: 130px; border: 0; float: left;}
+#header-full #header-limited #logomarca img { margin-top: 30px;}
 
-
-
-
-/*==========================================
-                CONFIG CONTEUDO
-==========================================*/
-#conteudo { width: 960px; height: 500px; background: #fff; margin: 0 auto;}
 
 
 
@@ -22,5 +17,33 @@ body { background: #d1d1d1;}
 /*==========================================
                 CONFIG FOOTER
 ==========================================*/
+#header-full #header-limited #menu { width: 500px; height: 40px; background: #d1d1d1; margin: 80px 0 0 0; float: right;
+                                    font-family: Arial, Helvetica, sans-serif;}
+#header-full #header-limited #menu ul { list-style: none;}
+#header-full #header-limited #menu ul li { }
+#header-full #header-limited #menu ul li a { text-decoration: none; float: left; padding: 10px; color: #000;}
+#header-full #header-limited #menu ul li a:hover { background: #000; color: #fff;}
+
+
+
+
+
+/*==========================================
+                CONFIG CONTEUDO
+==========================================*/
+#box-content { width: 960px; height: 400px; background: #fff; margin: 0 auto;}
+#box-content h1, h2 { text-align: center; padding-top: 15px;}
+
+
+#box-content #conteudo { width: 640px; float: left;}
+
+#box-content #sidebar { width: 300px; height: 250px; background: #3B8230; float: right;}
+
+
+/*==========================================
+                CONFIG FOOTER
+==========================================*/
 #footer-full { width: 100%; height:auto; background: #ccc;}
 #footer-full #footer-limited { width: 960px; height: 80px; margin: 0 auto; background: #3B8230;}
+
+

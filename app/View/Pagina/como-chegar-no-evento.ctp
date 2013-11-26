@@ -1,4 +1,4 @@
-<h1>Como chegar no evento</h1>
+<h1>Como chegar no evento.CTP</h1>
 
 <p>Não fique perdido e passando raiva.</p>
 
