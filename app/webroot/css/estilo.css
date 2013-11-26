@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0;}
+body { background: #d1d1d1;}
+
+
+/*==========================================
+                CONFIG HEADER
+==========================================*/
+#header-full { width: 100%; height:auto; background: #ccc;}
+#header-full #header-limited { width: 960px; height: 150px; margin: 0 auto; background: #069;}
+
+
+
+
+/*==========================================
+                CONFIG CONTEUDO
+==========================================*/
+#conteudo { width: 960px; height: 500px; background: #fff; margin: 0 auto;}
+
+
+
+
+/*==========================================
+                CONFIG FOOTER
+==========================================*/
+#footer-full { width: 100%; height:auto; background: #ccc;}
+#footer-full #footer-limited { width: 960px; height: 80px; margin: 0 auto; background: #3B8230;}

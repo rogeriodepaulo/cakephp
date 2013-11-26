@@ -11,21 +11,25 @@
 <body>
 
 <div id="header-full">
-    <div id="header-limited">AQUI ESTÁ O HEADER</div>
-</div>
+    <div id="header-limited">AQUI ESTÁ O HEADER</div><!--/ id header limited-->
+</div><!--/ id header full-->
 
 
 <div id="conteudo">
 	<h1>Aqui estou usando uma tag h1 dentro do id conteudo.</h1>
-</div>
+</div><!--/ id conteudo-->
 
 
-<div id="footer">
-	<p>Rodape do site e também alguns créditos.</p>
-</div>
+<div id="footer-full">
+    <div id="footer-limited">
+        <p>Rodape do site e também alguns créditos.</p>
+    </div><!--/ id footer limited-->
+</div><!--/ footer full-->
 
-<h1>Este título aparece em todas as páginas</h1>
-<?php echo $this->fetch('content') ?>
+
+<!--
+</?php echo $this->fetch('content') ?>
+-->
 
 </body>
 
