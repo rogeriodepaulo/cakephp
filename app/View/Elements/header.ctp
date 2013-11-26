@@ -5,7 +5,7 @@
             
             <?php echo $this->Html->link(
                     $this->Html->image('logoc3s.png', array('alt' => $cakeDescription, 'border' => '0')),
-                    'http://www.cakephp.org/',
+                    'http://www.rxweb.com.br/cakephp/',
                     array('target' => '_blank', 'escape' => false)
                 );
             ?>            
