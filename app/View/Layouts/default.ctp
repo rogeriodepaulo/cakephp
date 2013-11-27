@@ -9,28 +9,16 @@
 
 
 <body>
-
 <?php echo $this->element('header') ?>
-
 
 <div id="box-content">
     <div id="conteudo">
         <?php echo $this->fetch('content'); ?>
     </div><!--/ id conteudo-->
     
-    
-    
     <div id="sidebar">SIDEBAR</div>
 </div><!--/ id conteudo-->
 
-
 <?php echo $this->element('footer') ?>
-
-
-<!--
-</?php echo $this->fetch('content') ?>
--->
-
 </body>
-
 </html> 

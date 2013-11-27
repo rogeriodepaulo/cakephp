@@ -3,6 +3,9 @@
         <div id="logomarca">
            <!-- <img src="img/logoc3s.png" />-->
             
+            <?php
+            $cakeDescription = NULL;
+            ?>
             <?php echo $this->Html->link(
                     $this->Html->image('logoc3s.png', array('alt' => $cakeDescription, 'border' => '0')),
                     'http://www.rxweb.com.br/cakephp/',
@@ -11,10 +14,6 @@
             ?>            
             
         </div>
-        
-        
-                        
-        
         
         <?php echo $this->element('menu') ?>
     </div><!--/ id header limited-->

@@ -1,3 +1,3 @@
-<h1>ROGERIO TESTE 2013</h1>
+<h1>O MAIOR EVENTO DO ANO</h1>
 
-<p>Desenvolvimento Rápido  com cakePHP</p>
+<p>Acompanhe as últimas novidades aqui.</p>
