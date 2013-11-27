@@ -15,6 +15,7 @@
 
 <div id="box-content">
     <div id="conteudo">
+        <h1>Página inicial</h1>
         <?php echo $this->fetch('content'); ?>
     </div><!--/ id conteudo-->
     
